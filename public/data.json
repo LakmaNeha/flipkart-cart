@@ -1,0 +1,113 @@
+[
+    {
+        "productName": "Men Slim Fit Striped Casual Shirt",
+        "price" :  "512",
+        "imgUrl" : "https://rukminim1.flixcart.com/image/880/1056/kbpeoi80/shirt/i/d/x/s-hlsh011593-highlander-original-imafszkenqgy4ss3.jpeg?q=50",
+        "brand" : "highlander",
+        "gender" : "male",
+        "size" : ["S","L"],
+        "key" : "1"
+    },
+    {
+        "productName": "Solid Men Polo Neck Green T-Shirt",
+        "price" :  "1019",
+        "imgUrl" : "https://rukminim1.flixcart.com/image/880/1056/kctf0cw0/t-shirt/5/3/f/xl-usts6325-u-s-polo-association-original-imaftuhtncyat4fy.jpeg?q=50",
+        "brand" : "U.S. POLO ASSN.",
+        "gender" : "male",
+        "size" : ["S","L","XL","XXL"],
+        "key" : "2"
+    },
+    {
+        "productName": "Printed Men Black Sports Shorts",
+        "price" :  "324",
+        "imgUrl" : "https://rukminim1.flixcart.com/image/880/1056/k4n2avk0/short/q/z/r/36-hlv8000151-highlander-original-imafnhc3ayx84eyr.jpeg?q=50",
+        "brand" : "highlander",
+        "gender" : "male",
+        "size" : ["S","M","XXL"],
+        "key" : "3"
+    },
+    {
+        "productName": "Men Slim Fit Printed Cut Away Collar Casual Shirt",
+        "price" :  "429",
+        "imgUrl" : "https://rukminim1.flixcart.com/image/880/1056/km2clu80/shirt/c/h/t/l-hlsh012470-highlander-original-imagffx8thxhcn6q.jpeg?q=50",
+        "brand" : "highlander",
+        "gender" : "male",
+        "size" : ["S","M","L","XL"],
+        "key" : "4"
+    },
+   
+    {
+        "productName": "Men Regular Fit Striped Casual Shirt",
+        "price" :  "1035",
+        "imgUrl" : " https://rukminim1.flixcart.com/image/714/857/klfhk7k0/shirt/t/y/e/xl-usshto0325-u-s-polo-assn-original-imagyk34ezgyjs55.jpeg?q=50",
+        "brand" : "U.S. POLO ASSN.",
+        "gender" : "male",
+        "size" : ["S","M","L","XL","XXL"],
+        "key" : "5"
+    },
+    {
+        "productName": "Printed Men Round Neck Yellow T-Shirt",
+        "price" :  "2679",
+        "imgUrl" : " https://rukminim1.flixcart.com/image/714/857/km9ht3k0/t-shirt/p/r/z/m-gq2221-adidas-original-imagf7g6urzet67q.jpeg?q=50",
+        "brand" : "adidas",
+        "gender" : "male",
+        "size" : ["M","L","XL","XXL"],
+        "key" : "6"
+    },
+
+    {
+        "productName": "Women Geometric Print Cotton Blend Straight Kurta  (White)",
+        "price" :  "658",
+        "imgUrl" : " https://rukminim1.flixcart.com/image/880/1056/kohigsw0/kurta/x/w/9/xxl-20sta12038-300104-aurelia-original-imag2xxtnrp6ah3w.jpeg?q=50",
+        "brand" : "aurelia",
+        "gender" : "female",
+        "size" : ["S","M","L","XL"],
+        "key" : "7"
+    },
+    {
+        "productName": "Women Geometric Print Viscose Straight Kurta  (Grey)",
+        "price" :  "724",
+        "imgUrl" : " https://rukminim1.flixcart.com/image/714/857/k7w8eq80/kurta/g/m/v/xl-20fea11234-501579-aurelia-original-imafqfh9bgabrrpb.jpeg?q=50",
+        "brand" : "aurelia",
+        "gender" : "female",
+        "size" : ["M","L"],
+        "key" : "8"
+    },
+    {
+        "productName": "Women Fit and Flare Blue Dress",
+        "price" :  "920",
+        "imgUrl" : " https://rukminim1.flixcart.com/image/880/1056/jmux18w0/dress/p/m/t/s-15154902-medium-blue-denim-only-original-imaf9na4bb5j2m9h.jpeg?q=50",
+        "brand" : "only",
+        "gender" : "female",
+        "size" : ["XS","M"],
+        "key" : "9"
+    },
+    {
+        "productName": "Printed Women Collared Neck Green T-Shirt",
+        "price" :  "520",
+        "imgUrl" : " https://rukminim1.flixcart.com/image/880/1056/k6fd47k0/t-shirt/v/n/2/l-211231701-only-original-imafzvgbugrg5yab.jpeg?q=50",
+        "brand" : "only",
+        "gender" : "female",
+        "size" : ["M","XXL"],
+        "key" : "10"
+    },
+    {
+        "productName": "Casual 3/4 Sleeve Solid Women Maroon Top",
+        "price" :  "1999",
+        "imgUrl" : " https://rukminim1.flixcart.com/image/880/1056/kpedle80/top/s/9/c/s-258083603-only-original-imag3mxq9az2zzdg.jpeg?q=50",
+        "brand" : "only",
+        "gender" : "female",
+        "size" : ["M","L","XL"],
+        "key" : "11"
+    },
+    {
+        "productName": "Solid Women Round Neck Red T-Shirt",
+        "price" :  "600",
+        "imgUrl" : "https://rukminim1.flixcart.com/image/880/1056/km0x5zk0/t-shirt/2/p/j/s-gm6223-adidas-original-imagfytuyrrhuehm.jpeg?q=50",
+        "brand" : "adidas",
+        "gender" : "female",
+        "size" : ["XS","S","M","L","XL"],
+        "key" : "12"
+    }
+
+]
