@@ -33,8 +33,9 @@ export default function ItemContainer({cartList,setCartList}) {
       const add = (id) =>{
           
           const list = data.filter((item)=> item.key===id )
-          
+          list[0].quantity=1;
           setCartList([...cartList,list[0]])
+
       }
       
     return (
@@ -54,7 +55,7 @@ export default function ItemContainer({cartList,setCartList}) {
                 <p style={{fontWeight: "bold"}}>₹{item.price}</p>
                 <p >{item.size}</p>
                 </div>
-                <button onClick={()=>add(item.key)}>Add to Cart</button>
+                {cartList.find((i)=>i.productName===item.productName) !== undefined ? <button>Added</button> : <button onClick={()=>add(item.key)}>Add to Cart</button> }
                 </div>
                 </div>
                 )

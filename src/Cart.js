@@ -9,6 +9,7 @@ export default function Cart({ cartList, setCartList }) {
   cartList.forEach((item) => {
     if (uniqueList.includes(item)) {
       //do nothing
+      
     } else {
       uniqueList.push(item);
     }
@@ -27,7 +28,8 @@ export default function Cart({ cartList, setCartList }) {
     setCartList(list);
   };
   const addOneMore = (pName) =>{
-    const thisItem = cartList.find((item) => item.productName === pName); 
+    const thisItem = cartList.find((item,index) => item.productName === pName); 
+    thisItem.quantity++
     setCartList([...cartList,thisItem])
   }
   const removeOne = (pName) =>{
@@ -39,11 +41,12 @@ export default function Cart({ cartList, setCartList }) {
       }
     })
     let copyCartList = [...cartList]
+    copyCartList[i].quantity--;
     copyCartList.splice(i,1)
     setCartList(copyCartList)
     
   }
-
+  console.log(cartList)
   return (
     <div className="container">
       <div className="left-side">
@@ -57,7 +60,7 @@ export default function Cart({ cartList, setCartList }) {
                   <img src={item.imgUrl} alt={item.productName}></img>
                   <div style={{display:"flex",flexDirection:"row",paddingLeft:"2rem",paddingRight:"2rem",justifyContent:"space-between",marginRight:"3rem"}} >
                   <button onClick={()=>removeOne(item.productName)}>-</button>
-                  
+                  <p>{item.quantity}</p>
                   <button onClick={()=>addOneMore(item.productName)}>+</button>
                   </div>
                 </div>
